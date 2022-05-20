@@ -9,7 +9,7 @@ Agent::Agent(){
 	
 }
 Agent::Agent(string Name,string Address,int pnumber,string email,string agentid,string pass,int pid,int disid,int percentage,Feedback *f)
-:User(string Name,string Address,int pnumber,string email)
+:User(string Name,string Address,string email)
 {
 	
 	agent_ID=agentid;
