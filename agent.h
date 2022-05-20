@@ -8,7 +8,7 @@ class Agent:public User{
 		string password;
 		
 	public:
-		Agent(string Name,string Address,int pnumber,string email,string agentid,string pass,int pid,int disid,int percentage,Feedback *f);
+		Agent(string Name,string Address,string email,string agentid,string pass,int pid,int disid,int percentage,Feedback *f);
 		Agent();
 		~Agent();
 		void addInsuaranceDetails();
